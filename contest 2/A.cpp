@@ -22,7 +22,7 @@ int main(){
                 sum+=mini;
             }else{
                 sum+=arr[i];
-                mini=min(min,arr[i]);
+                mini=arr[i];
             }
         }
 
